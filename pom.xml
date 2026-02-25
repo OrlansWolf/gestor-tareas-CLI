@@ -5,7 +5,7 @@
          http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.tareas</groupId>
+    <groupId>com.taskmanager</groupId>
     <artifactId>gestor-tareas</artifactId>
     <version>1.0</version>
 
@@ -36,7 +36,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>3.1.0</version>
                 <configuration>
-                    <mainClass>com.tareas.Principal</mainClass>
+                    <mainClass>com.taskmanager.Principal</mainClass>
                 </configuration>
             </plugin>
         </plugins>
